@@ -1,0 +1,20 @@
+.frog-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.frog-table th, .frog-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.frog-table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.frog-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
